@@ -2,10 +2,12 @@ n, B = list(map(int, input().strip().split()))
 T = 0
 
 # your code here
+#Bisection Search
 i = 0
 result_small = 0
 t = 1
 T = 10000
+#Calcolates for T values 1 and 10000
 for i in range(1, n + 1):
   if i % 2 == 0:
     p = 2 ** i + 1
